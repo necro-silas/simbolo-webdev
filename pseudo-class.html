@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo class</title>
+    <style>
+      a:link {
+        color: gold;
+      }
+      a:hover {
+        color: brown;
+      }
+      a:active {
+        color: black;
+      }
+      a:visited {
+        color: lawngreen;
+      }
+      p::first-letter {
+        color: gold;
+        font-weight: bold;
+        font-size: 40px;
+      }
+      p::first-line {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="combinators.html">combinators</a>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam obcaecati,
+      impedit nisi facere consectetur dolor tempora? Recusandae, modi aliquam
+      esse, illo ipsa dolore obcaecati, quidem sapiente dolor nemo provident
+      dignissimos.
+    </p>
+  </body>
+</html>

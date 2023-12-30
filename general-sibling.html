@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>general sibling</title>
+    <style>
+        div~p{
+            background-color: black;
+            color: aqua;
+        }
+        div+p{
+            background-color: aqua;
+            color: brown;
+        }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magnam
+        cumque quo fugiat id quasi assumenda! Doloribus harum facere nesciunt
+        aliquid illo delectus tempore fuga suscipit soluta nam! Cumque, ipsa?
+      </p>
+      <div>
+        <p>pargraph inside div</p>
+      </div>
+      <p>paragraph outside div</p>
+      <p>paragraph ou div</p>
+    </section>
+  </body>
+</html>
